@@ -16,4 +16,4 @@ No Front-end (dentro de reactproject):
 
 npm install
 
-node index.js
+npm start (para abrir o projeto no navegador)
