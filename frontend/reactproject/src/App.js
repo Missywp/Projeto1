@@ -10,7 +10,6 @@ import {
   useNavigate,
 } from "react-router-dom";
 
-// Componente de Formulário reutilizável para Cadastro e Edição
 function Formulario({ handleSubmit, tituloPagina, tituloBotao }) {
   const navigate = useNavigate();
   const inputPersonagem = useRef();
@@ -215,7 +214,7 @@ function App() {
               }
             />
 
-            {/* PÁGINA 3: EDIÇÃO */}
+            {/*EDIÇÃO */}
             <Route
               path="/editar"
               element={
