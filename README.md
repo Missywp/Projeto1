@@ -16,4 +16,6 @@ No Front-end (dentro de reactproject):
 
 npm install
 
+npm install react-router-dom
+
 npm start (para abrir o projeto no navegador)
